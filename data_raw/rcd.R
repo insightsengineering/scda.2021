@@ -8,15 +8,15 @@ releases <- c(
 )
 
 
-# https://stackoverflow.com/questions/5577221/how-can-i-load-an-object-into-a-variable-name-that-i-specify-from-an-r-data-file
-loadRData <- function(fileName){
+# https://stackoverflow.com/questions/5577221/
+# how-can-i-load-an-object-into-a-variable-name-that-i-specify-from-an-r-data-file
+loadrdata <- function(file_name) {
   #loads an RData file, and returns it
   load(fileName)
   get(ls()[ls() != "fileName"])
 }
 
 setwd("random.cdisc.data/")
-
 
 for (i in seq_along(releases)) {
 
