@@ -37,7 +37,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">scda.2021</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.1.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.1.9001</span>
       </span>
     </div>
 
@@ -94,29 +94,29 @@
 <ol>
 <li>
 <p>Clone the repository</p>
-<p>The repository can be downloaded directly from the <code>github.com</code> site as an archive (see <a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository">Github tutorial on cloning to learn more</a>). Alternatively, Git command line tools offer the same functionality, without the need for manual downloading and unpacking the archive, but require to authenticate to Github. You can authenticate using a key pair or a Personal Access Token (PAT). Please refer to excellent Github tutorials on <a href="https://docs.github.com/en/github/authenticating-to-github">connecting to Github using SSH</a> or <a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token">creating and using PAT</a>.</p>
+<p>The repository can be downloaded directly from the <code>github.com</code> site as an archive (see <a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository">GitHub tutorial on cloning to learn more</a>). Alternatively, Git command line tools offer the same functionality, without the need for manual downloading and unpacking the archive, but require to authenticate to GitHub. You can authenticate using a key pair or a Personal Access Token (PAT). Please refer to excellent GitHub tutorials on <a href="https://docs.github.com/en/github/authenticating-to-github">connecting to GitHub using SSH</a> or <a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token">creating and using PAT</a>.</p>
 <ol>
 <li>
 <p>Using PAT. Input in the Git Bash console, PowerShell or any Linux shell:</p>
-<pre><code>$ git clone https://github.com/insightsengineering/scda.2021.git
-Username: your_username_goes_here
-Password: your_token_goes_here</code></pre>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git clone https://github.com/insightsengineering/scda.2021.git</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">Username:</span> your_username_goes_here</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">Password:</span> your_token_goes_here</span></code></pre></div>
 </li>
 <li>
 <p>Using SSH. If set up properly, the repository is ready to be cloned executing:</p>
-<pre><code>$ git clone https://github.com/insightsengineering/scda.2021.git</code></pre>
-<p>This creates a sub-directory <code>scda.2021</code> containing the cloned repository.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/insightsengineering/scda.2021.git</span></code></pre></div>
 </li>
 </ol>
+<p>This creates a sub-directory <code>scda.2021</code> containing the cloned repository.</p>
 </li>
 <li>
 <p>Build and install</p>
 <p>The native R tools provide a quick way to install a package. Run in PowerShell or any Linux shell:</p>
-<pre><code>$ R CMD build scda.2021</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">R</span> CMD build scda.2021</span></code></pre></div>
 <p>This command builds the package and creates an archive. The name of the archive is output by the command at then of building. Then input in the shell:</p>
-<pre><code>$ Rscript -e 'install.packages("name_of_the_archive")</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">'install.packages("name_of_the_archive")</span></span></code></pre></div>
 <p>Here is an example of a real command (with name_of_the_archive substituted by the output of the build command):</p>
-<pre><code>$ Rscript -e 'install.packages("scda.2021_0.1.0.9000.tar.gz")'</code></pre>
+<div class="sourceCode" id="cb6"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">'install.packages("scda.2021_0.1.0.9000.tar.gz")'</span></span></code></pre></div>
 </li>
 </ol>
 </div>
@@ -124,7 +124,7 @@ Password: your_token_goes_here</code></pre>
 <div id="note" class="section level1">
 <h1 class="hasAnchor">
 <a href="#note" class="anchor"></a>Note</h1>
-<p>The data in this package is an accumulation over time of datasets that were needed for documentation and unit testing code. We do not attempt to provide reproducibilty of the data. The git repo has the folder <code>data_raw</code> which might have the scripts to create some of the data.</p>
+<p>The data in this package is an accumulation over time of datasets that were needed for documentation and unit testing code. We do not attempt to provide reproducibility of the data. The git repository has the folder <code>data_raw</code> which might have the scripts to create some of the data.</p>
 </div>
 
   </div>
