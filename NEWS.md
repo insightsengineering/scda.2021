@@ -2,6 +2,7 @@
 
 * Updated R version requirement to >= 3.6.
 * Added `rcd_2021_10_13` data to the package.
+* updated RCD data to include ADPP.
 
 # scda.2021 0.1.1
 
