@@ -1,7 +1,7 @@
 
 # Synthetic CDISC Data Archive 2021
 
-This R package contains synthetic CDISC data that we accumulate over time in 2021. Once data is released it will not be changed anymore so that this data can be used for unit testing.
+This R package contains synthetic CDISC data that we accumulate over time in 2021. Data is immutable in the package so that we can use it for testing purpose.
 
 The data name convention is `<domain>_<?area?>_<added on date>`.
 
