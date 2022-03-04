@@ -16,7 +16,7 @@ downstream_repos:
     repo: insightsengineering/teal.data
     host: https://github.com
   insightsengineering/teal.transform:
-    repo: insightsengineering/teal.slice
+    repo: insightsengineering/teal.transform
     host: https://github.com
   insightsengineering/teal.slice:
     repo: insightsengineering/teal.slice
