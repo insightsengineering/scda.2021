@@ -4,7 +4,6 @@
 * Added `rcd_2021_10_13` data to the package.
 * Updated data to include `ADPP` and `ADPC`.
 * Updated `README` file.
-* Adjusted `staged_dependencies.yaml` file.
 
 # scda.2021 0.1.1
 
