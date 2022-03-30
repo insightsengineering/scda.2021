@@ -23,4 +23,4 @@ devtools::install_github("insightsengineering/scda.2021@*release")
 
 ## Note
 
-The data in this package is an accumulation over time of datasets that were needed for documentation and unit testing code. We do not attempt to provide reproducibility of the data. The git repository has the folder `data_raw` which has the scripts used to create some of the data.
+The data in this package is an accumulation over time of datasets that were needed for documentation and unit testing code. We do not attempt to ensure this data is reproducible. The git repository has the folder `data_raw` which has the scripts used to create some of the data.
