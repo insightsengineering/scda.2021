@@ -1,9 +1,12 @@
-# scda.2021 0.1.2.9005.2
+# scda.2021 0.1.3
+
+* Updated `README` file.
+
+# scda.2021 0.1.2
 
 * Updated R version requirement to >= 3.6.
 * Added `rcd_2021_10_13` data to the package.
 * Updated data to include `ADPP` and `ADPC`.
-* Updated `README` file.
 
 # scda.2021 0.1.1
 
