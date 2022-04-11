@@ -39,3 +39,16 @@ for (i in seq_along(releases)) {
 
 setwd("..")
 unlink("random.cdisc.data", recursive = TRUE)
+
+
+
+devtools::load_all("~/nest/teal.data")
+
+cf <- callable_function(fun = rlang::peek_option)
+cf$set_args(list(name = "my_option"))
+cf$run()
+cf$get_call()
+
+cf$set_run_options(list(my_option = "boo"))
+cf$run()
+cf$get_call()
