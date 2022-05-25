@@ -1,5 +1,7 @@
 # scda.2021 0.1.3.9002
 
+* Updated package authors.
+
 # scda.2021 0.1.3
 
 * Updated `README` file.
