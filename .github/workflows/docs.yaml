@@ -35,6 +35,8 @@ on:
 jobs:
   docs:
     name: Pkgdown Docs 📚 
-    uses: insightsengineering/r.pkg.template/.github/workflows/pkgdown.yaml@main
+    uses: insightsengineering/r.pkg.template/.github/workflows/pkgdown.yaml@302_man_page_update
     secrets:
       REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
+    with:
+      update: true
