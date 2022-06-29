@@ -14,6 +14,7 @@ loadRData <- function(fileName) { # nolint
 
   load(fileName)
 
+
   get(ls()[ls() != "fileName"])
 }
 
