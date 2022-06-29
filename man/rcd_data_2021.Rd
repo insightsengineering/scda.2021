@@ -27,6 +27,6 @@ rcd_2021_07_07
 rcd_2021_10_13
 }
 \description{
-Cached datasets from 2021 releases of \code{random.cdisc.data}.
+Cached datasets (this is a test) from 2021 releases of \code{random.cdisc.data}.
 }
 \keyword{datasets}
