@@ -1,6 +1,6 @@
 #' Cached datasets from `random.cdisc.data`
 #'
-#' Cached datasets (test4) from 2021 releases of `random.cdisc.data`.
+#' Cached datasets (test5) from 2021 releases of `random.cdisc.data`.
 #'
 #' @name rcd_data_2021
 #'
