@@ -25,12 +25,10 @@ for (i in seq_along(releases)) {
   dt <- names(releases)[i]
   v <- releases[i]
 
-
   system(paste0("git checkout tags/", v))
 
   data_files <- list.files("data", pattern = "\\.RData$", full.names = TRUE)
   dfs <- lapply(data_files, loadRData)
-
 
 
   names(dfs) <- substring(tools::file_path_sans_ext(basename(data_files)), 2)
