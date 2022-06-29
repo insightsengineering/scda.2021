@@ -28,14 +28,14 @@ for (i in seq_along(releases)) {
 
 
 
-  system(   paste0("git checkout tags/",    v))
+  system(paste0("git checkout tags/", v))
 
   data_files <- list.files("data", pattern = "\\.RData$", full.names = TRUE)
-  dfs <-    lapply(data_files, loadRData)
+  dfs <- lapply(data_files, loadRData)
 
 
 
-  names(dfs) <-substring(tools::file_path_sans_ext(basename(data_files)), 2)
+  names(dfs) <- substring(tools::file_path_sans_ext(basename(data_files)), 2)
 
   final <- dfs[c("adsl", setdiff(names(dfs), "adsl"))]
   nm <- paste0("rcd_", dt)
