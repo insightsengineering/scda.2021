@@ -30,9 +30,9 @@ for (i in seq_along(releases)) {
 
 
 
-  names(dfs) <- substring(tools::file_path_sans_ext(basename(data_files)), 2)
+  names(dfs) <-     substring(tools::file_path_sans_ext(basename(data_files)), 2)
 
-  final <- dfs[c("adsl", setdiff(names(dfs), "adsl"))]
+  final <-dfs[c("adsl", setdiff(names(dfs), "adsl"))]
   nm <- paste0("rcd_", dt)
 
   assign(nm, final)
