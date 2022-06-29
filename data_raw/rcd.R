@@ -15,7 +15,6 @@ loadRData <- function(fileName) { # nolint
   load(fileName)
   get(ls()[ls() != "fileName"])
 }
-
 setwd("random.cdisc.data/")
 
 for (i in seq_along(releases)) {
