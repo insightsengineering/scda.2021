@@ -28,7 +28,6 @@ for (i in seq_along(releases)) {
 
   final <- dfs[c("adsl", setdiff(names(dfs), "adsl"))]
   nm <- paste0("rcd_", dt)
-
   assign(nm, final)
 
   cl <- call("save", as.name(nm), file = paste0("../data/", nm, ".RData"), compress = "bzip2")
