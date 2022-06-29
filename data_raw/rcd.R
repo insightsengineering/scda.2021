@@ -13,8 +13,6 @@ loadRData <- function(fileName) { # nolint
   # loads an RData file, and returns it
 
   load(fileName)
-
-
   get(ls()[ls() != "fileName"])
 }
 
