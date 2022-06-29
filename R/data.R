@@ -15,7 +15,6 @@ NULL
      "rcd_2021_05_05"
 
 
-
 #' @rdname rcd_data_2021
 "rcd_2021_07_07"
 
