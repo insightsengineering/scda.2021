@@ -25,6 +25,7 @@ for (i in seq_along(releases)) {
   v <- releases[i]
 
 
+
   system(   paste0("git checkout tags/",    v))
 
   data_files <- list.files("data", pattern = "\\.RData$", full.names = TRUE)
