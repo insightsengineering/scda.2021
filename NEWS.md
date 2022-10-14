@@ -1,4 +1,4 @@
-# scda.2021 0.1.4.9001
+# scda.2021 0.1.5
 
 * Updated package authors.
 * Updated `rcd` script to store datasets in separate `.RData` files.
