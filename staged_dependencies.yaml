@@ -33,9 +33,6 @@ downstream_repos:
   insightsengineering/goshawk:
     repo: insightsengineering/goshawk
     host: https://github.com
-  insightsengineering/teal.goshawk:
-    repo: insightsengineering/teal.goshawk
-    host: https://github.com
   insightsengineering/chevron:
     repo: insightsengineering/chevron
     host: https://github.com
