@@ -3,7 +3,6 @@
 <!-- start badges -->
 [![Check 🛠](https://github.com/insightsengineering/scda.2021/actions/workflows/check.yaml/badge.svg)](https://github.com/insightsengineering/scda.2021/actions/workflows/check.yaml)
 [![Docs 📚](https://github.com/insightsengineering/scda.2021/actions/workflows/docs.yaml/badge.svg)](https://insightsengineering.github.io/scda.2021/)
-[![Code Coverage 📔](https://raw.githubusercontent.com/insightsengineering/scda.2021/_xml_coverage_reports/data/main/badge.svg)](https://raw.githubusercontent.com/insightsengineering/scda.2021/_xml_coverage_reports/data/main/coverage.xml)
 
 ![GitHub forks](https://img.shields.io/github/forks/insightsengineering/scda.2021?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/insightsengineering/scda.2021?style=social)
